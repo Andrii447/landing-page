@@ -5,14 +5,6 @@ const Body = () => {
     <main style={styles.body}>
 
       <div style={styles.card}>
-        <img src={"/vasylchenko_photo.jpg"} alt="Andrii Vasylchenko" style={styles.photo} />
-        <div style={styles.textContainer}>
-          <h2 style={styles.name}>Andrii Vasylchenko</h2>
-          <p style={styles.position}>Business analyst</p>
-        </div>
-      </div>
-
-      <div style={styles.card}>
         <img src={"/Oleh.png"} alt="Oleh Voitykhivskyi" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Oleh Voitykhivskyi</h2>
@@ -20,6 +12,13 @@ const Body = () => {
         </div>
       </div>
 
+      <div style={styles.card}>
+        <img src={"/vasylchenko_photo.jpg"} alt="Andrii Vasylchenko" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Andrii Vasylchenko</h2>
+          <p style={styles.position}>Business analyst</p>
+        </div>
+      </div>
 
     </main>
   );
